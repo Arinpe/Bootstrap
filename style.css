@@ -1,0 +1,22 @@
+a {
+    color: inherit;
+  }
+  body {
+    max-width: 1310px;
+    margin: 0 auto;
+  }
+
+  .image-title {
+      bottom:0;
+      left: 0;
+      
+  }
+
+  img {
+      width: 100%;
+  } 
+
+  .demacation{
+    width: 100%;
+    background-color: red;
+  }
