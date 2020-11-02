@@ -5,492 +5,1117 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/style.css">
-<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>
 
  
+   
+  <body>
+
     <!-- Navigation -->
-   <header>
-    <div class="nav">
-      <div class="weather">
-        <p> <i class="fas fa-cloud-sun"></i><span>29 null, Ro</span></p>
-      </div>
-      <div class="center">
-        <h1><b>Newsweek</b></h1>
-      </div>
-      <div class="side">
-        <h2>LOGIN</h2>
-        <h2>SUBSCRIBE ></h2>
-      </div>
-      </div>
-      <div class="mid">
-        <ul>
-          <li>US</li>
-          <li>World</li>
-          <li>Business</li>
-          <li>Tech & Science</li>
-          <li>Culture</li>
-          <li>Newsgeeks</li>
-          <li>Sports</li>
-          <li>Health</li>
-          <li>The Debate</li>
-          <li>Vantage</li>
-          <li>Weather</li>
+    <nav class="nav ">
+      <!-- Nav top -->
+      <div
+        class="nav-top bg-red-color d-flex justify-content-between align-items-center p-2 pt-lg-3 pb-lg-2 px-lg-3 w-100">
+        <ul class="nav-lg-left list-unstyled text-white text-roboto font-weight-bold d-none d-lg-block mb-0">
+          <li class="py-lg-2"><a href=""><i class="fas fa-cloud-sun"></i> 29 null, Ro <i
+                class="fas fa-angle-right"></i></a>
+          </li>
+          <li class="py-lg-1"><time datetime="2020-07-27">Mon, Nov 2, 2020</time></li>
         </ul>
-          <div class="search">
-            <h3>Search <span class="iconify" data-icon="bytesize:search" data-inline="false"></span></h3>
-          </div>
+  
+        <ul class="nav-left list-unstyled d-flex align-items-center mb-1">
+          <li class="nav-brand"><a href="#"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="white"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6 H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8 c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2 C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4  c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6  c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6 C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9  c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2  c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1 c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6  v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5  h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg></a></li>
+        </ul>
+  
+        <ul class="nav-right list-unstyled d-flex mb-0 align-items-center">
+          <li><a href="#" class="h5 mr-1"><span class="d-none d-md-inline text-white">LOGIN</span> <i
+                class="fas fa-user d-md-none text-semi-white"></i></a></li>
+          <li class="px-2 mr-2 pr-lg-0 mr-lg-0">
+            <button class="nav-button btn btn-warning py-0 px-2 font-weight-bold" type="button">SUBSCRIBE <i
+                class="fas fa-angle-right"></i></button>
+          </li>
+          <li class="d-lg-none"><a class="nav-mobile-menu h5 mt-1 pr-2"><i class="fas fa-bars text-semi-white"></i></a>
+          </li>
+        </ul>
       </div>
-        <div class="trending">
-          <h2>TRENDING</h2>
-          <ul>
-            <li>DONALD TRUMP</li>
-            <li>JOE BIDEN</li>
-            <li>STIMULUS PACKAGE</li>
-            <li>CORONAVIRUS</li>
-            <li>AMY CONEY BARRETT</li>
-            <li>2020 ELECTION</li>
-            <li>COUNTRIES THAT COUNTS</li>
+  
+      <!-- Nav middle -->
+      <ul
+        class="nav-lg-middle list-unstyled d-none d-lg-flex py-lg-2 text-roboto font-weight-bold border-bottom pb-2 w-100 position-relative">
+        <li class="px-lg-2 border-right"><a href="">U.S.</a></li>
+        <li class="px-lg-2 border-right"><a href="">World</a></li>
+        <li class="px-lg-2 border-right"><a href="">Business</a></li>
+        <li class="px-lg-2 border-right"><a href="">Tech & Science</a></li>
+        <li class="px-lg-2 border-right"><a href="">Culture</a></li>
+        <li class="px-lg-2 border-right"><a href="">Newsgeek</a></li>
+        <li class="px-lg-2 border-right"><a href="">Sports</a></li>
+        <li class="px-lg-2 border-right"><a href="">Health</a></li>
+        <li class="px-lg-2 border-right"><a href="">The debate</a></li>
+        <li class="px-lg-2 border-right"><a href="">Vantage</a></li>
+        <li class="px-lg-2 border-right"><a href="">Weather</a></li>
+        <li class="font-size-14 font-weight-normal nav-lg-middle-search align-middle pl-lg-1 ml-lg-2 mt-1">Search <i
+            class="fas fa-search"></i>
+        </li>
+      </ul>
+  
+      <!-- Nav bottom -->
+      <ul
+        class="nav-lg-bottom text-uppercase list-unstyled d-none d-lg-flex px-3 font-weight-bold border-bottom w-100 pb-2">
+        <li class="text-black"><a href="">Trending</a></li>
+        <li class="pl-4"><a href="">Donald Trump</a></li>
+        <li class="pl-4"><a href="">Joe Biden</a></li>
+        <li class="pl-4"><a href="">China</a></li>
+        <li class="pl-4"><a href="">Coronavirus</a></li>
+        <li class="pl-4"><a href="">2020 Election</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Main content -->
+    <main class="main-grid-container d-md-grid">
+  
+      <div class="main-top-grid-container grid">
+        <!-- Top story -->
+        <section class="top-story my-3 mb-md-0">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2">TOP STORY</p>
+  
+            <div class="top-story-container">
+              <article class="top-story-main-article">
+                <div class="top-story-main-article-image position-relative w-100">
+                  <a href="#">
+                    <img src="assets/img/donald-trump-1.webp">
+                    <div class="article-category position-absolute text-red-color font-weight-bold px-3 py-1">U.S.</div>
+                  </a>
+                </div>
+  
+                <div class="top-story-main-article-details">
+                  <h1 class="top-story-main-article-title h5 font-weight-bold mt-2 text-roboto text-black"><a
+                      href="">Trump
+                      Cancels
+                      Republican
+                      National
+                      Convention in
+                      Florida
+                      Due to
+                      COVID-19</a>
+                  </h1>
+                  <p class="top-story-main-article-subtitle text-subtitle text-arial">"It's just not right with what's
+                    happened recently,
+                    the flare-up
+                    in
+                    Florida, to have a big convention," President Donald Trump said Thursday.</p>
+                </div>
+              </article>
+  
+              <article class="top-story-main-subarticle py-3 d-md-none">
+                <div class="top-story-main-subarticle-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/married-first-sight-cast-reunion-spoilers.webp">
+                  </a>
+                </div>
+  
+                <div class="top-story-main-subarticle-details">
+                  <h2 class="top-story-main-subarticle-title text-roboto font-weight-bold h6"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus
+                      Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="top-story-main-subarticle-subtitle text-subtitle text-arial">Officials have blamed the surge
+                    in
+                    new coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Featured stories -->
+        <section class="featured-stories position-relative pt-5 pt-md-3 pb-4">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2">FEATURED STORIES</p>
+  
+            <div class="featured-stories-container">
+              <article class="featured-stories-article">
+                <div class="featured-stories-article-image position-relative">
+                  <a href="#">
+                    <img src="assets/img/rams-head-squid.webp">
+                    <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                  </a>
+                </div>
+  
+                <div class="featured-stories-article-details">
+                  <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                      World
+                      Support Against 'Tyranny' of
+                      China</a>
+                  </h2>
+                  <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                    authoritarian
+                    at home and more
+                    aggressive
+                    and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+                </div>
+              </article>
+  
+              <article class="featured-stories-article">
+                <div class="featured-stories-article-image position-relative">
+                  <a href="#">
+                    <img src="assets/img/rams-head-squid.webp">
+                    <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                  </a>
+                </div>
+  
+                <div class="featured-stories-article-details">
+                  <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                      World
+                      Support Against 'Tyranny' of
+                      China</a>
+                  </h2>
+                  <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                    authoritarian
+                    at home and more
+                    aggressive
+                    and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+                </div>
+              </article>
+  
+              <article class="featured-stories-article">
+                <div class="featured-stories-article-image position-relative">
+                  <a href="#">
+                    <img src="assets/img/rams-head-squid.webp">
+                    <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                  </a>
+                </div>
+  
+                <div class="featured-stories-article-details">
+                  <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                      World
+                      Support Against 'Tyranny' of
+                      China</a>
+                  </h2>
+                  <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                    authoritarian
+                    at home and more
+                    aggressive
+                    and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+                </div>
+              </article>
+  
+              <article class="featured-stories-article">
+                <div class="featured-stories-article-image position-relative">
+                  <a href="#">
+                    <img src="assets/img/rams-head-squid.webp">
+                    <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                  </a>
+                </div>
+  
+                <div class="featured-stories-article-details">
+                  <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                      World
+                      Support Against 'Tyranny' of
+                      China</a>
+                  </h2>
+                  <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                    authoritarian
+                    at home and more
+                    aggressive
+                    and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+                </div>
+              </article>
+  
+              <article class="featured-stories-article">
+                <div class="featured-stories-article-image position-relative">
+                  <a href="#">
+                    <img src="assets/img/rams-head-squid.webp">
+                    <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                  </a>
+                </div>
+  
+                <div class="featured-stories-article-details">
+                  <h2 class="featured-stories-article-title h5 font-weight-bold mt-2"><a href="">U.S. Tries to Rally World
+                      Support Against 'Tyranny' of
+                      China</a>
+                  </h2>
+                  <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                    authoritarian
+                    at home and more
+                    aggressive
+                    and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+                </div>
+              </article>
+  
+            </div>
+          </div>
+        </section>
+  
+        <div class="main-grid-container-aside">
+          <!-- The debate -->
+          <section class="the-debate position-relative pt-5 pb-4 pt-md-2 mt-lg-2">
+            <div class="container-fluid">
+              <p class="section-title font-weight-bold mb-2">THE DEBATE</p>
+  
+              <div class="the-debate-container">
+                <article class="the-debate-article d-flex align-items-center justify-content-start pt-2 pb-1">
+                  <div class="the-debate-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/trump-biden-last-debate.webp">
+                    </a>
+                  </div>
+                  <div class="the-debate-article-details ml-3 text-roboto text-black">
+                    <h3 class="the-debate-article-title h6 font-weight-bold"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="the-debate-article-author mt-1 mb-0 font-size-14 text-uppercase">
+                      By <b> M. Todd Henderson</b>
+                    </p>
+                  </div>
+                </article>
+  
+                <div class="the-debate-vs text-center my-2 text-size-14 font-weight-bold position-relative">
+                  <span class="bg-dark text-light p-2 rounded-circle">VS</span>
+                </div>
+  
+                <article
+                  class="the-debate-article d-flex align-items-center flex-row-reverse pt-2 pb-3 justify-content-between">
+                  <div class="the-debate-article-image avatar">
+                    <a href="#">
+                      <img src="./img/the-debate/m-todd-henderson.webp" alt="China Consulate Houston US">
+                    </a>  <img src="assets/img/trump-biden-last-debate.webp">
+                  </div>
+                  <div class="the-debate-article-details text-roboto text-black pr-4">
+                    <h3 class="the-debate-article-title h6 font-weight-bold"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="the-debate-article-author mt-1 mb-0 font-size-14 text-uppercase">
+                      By <b> M. Todd Henderson</b>
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+  
+          <!-- Opinion -->
+          <section class="opinion position-relative pt-5 pb-4 pt-md-2">
+            <div class="container-fluid">
+              <p class="section-title font-weight-bold mb-2">OPINION</p>
+  
+              <div class="opinion-container">
+                <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                  <div class="opinion-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/abigail-shrier.webp">
+                    </a>
+                  </div>
+                  <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                    <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                      By M. Todd Henderson
+                    </p>
+                  </div>
+                </article>
+                <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                  <div class="opinion-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/abigail-shrier.webp">
+                    </a>
+                  </div>
+                  <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                    <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                      By M. Todd Henderson
+                    </p>
+                  </div>
+                </article>
+                <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                  <div class="opinion-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/abigail-shrier.webp">
+                    </a>
+                  </div>
+                  <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                    <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                      By M. Todd Henderson
+                    </p>
+                  </div>
+                </article>
+  
+                <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                  <div class="opinion-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/abigail-shrier.webp">
+                    </a>
+                  </div>
+                  <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                    <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                      By M. Todd Henderson
+                    </p>
+                  </div>
+                </article>
+  
+                <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                  <div class="opinion-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/abigail-shrier.webp">
+                    </a>
+                  </div>
+                  <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                    <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                      By M. Todd Henderson
+                    </p>
+                  </div>
+                </article>
+  
+                <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                  <div class="opinion-article-image avatar">
+                    <a href="#">
+                      <img src="assets/img/abigail-shrier.webp">
+                    </a>
+                  </div>
+                  <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                    <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                        Everyone Benefits From Private Equity's Value Creation</a></h3>
+                    <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                      By M. Todd Henderson
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+  
+        <!-- More stories -->
+        <section class="more-stories position-relative pt-5 pt-md-2 pb-4">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2 ">MORE STORIES</p>
+  
+            <div class="more-stories-container">
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+  
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">>
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+  
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+  
+              <article class="more-stories-article border-top clearfix py-3">
+                <div class="more-stories-article-image float-left mr-3 mb-1">
+                  <a href="#">
+                    <img src="assets/img/china-pet-dog.webp">
+                  </a>
+                </div>
+  
+                <div class="more-stories-article-details">
+                  <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                      Million
+                      Coronavirus Cases As States
+                      Battle New Surge</a>
+                  </h2>
+                  <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                    new
+                    coronavirus cases on
+                    states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+                </div>
+              </article>
+  
+            </div>
+          </div>
+        </section>
+  
+        <!-- My turn -->
+        <section class="my-turn position-relative pt-5 pt-md-1 pb-2">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2">MY TURN</p>
+  
+            <div class="my-turn-container grid">
+              <figure class="my-turn-figure my-0 font-weight-bold text-secondary">
+                <img src="assets/img/kanye-west.webp">
+                <figcaption class="my-turn-figcaption pt-3 pb-4"><a href="" class="text-roboto">'I'm a Funeral Director.
+                    COVID-19 Has
+                    Changed How We Say
+                    Goodbye'</a></figcaption>
+              </figure>
+  
+              <figure class="my-turn-figure my-0 font-weight-bold text-secondary">
+                <img src="assets/img/kanye-west.webp">
+                <figcaption class="my-turn-figcaption pt-3 pb-4"><a href="" class="text-roboto">'I'm a Funeral Director.
+                    COVID-19 Has
+                    Changed How We Say
+                    Goodbye'</a></figcaption>
+              </figure>
+  
+              <figure class="my-turn-figure my-0 font-weight-bold text-secondary">
+                <img src="assets/img/kanye-west.webp">
+                <figcaption class="my-turn-figcaption pt-3 pb-4"><a href="" class="text-roboto">'I'm a Funeral Director.
+                    COVID-19 Has
+                    Changed How We Say
+                    Goodbye'</a></figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Culture Travel -->
+        <section class="culture-travel">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2">CULTURE & TRAVEL</p>
+  
+            <div class="culture-travel-container grid">
+  
+              <figure class="culture-travel-figure my-0">
+                <div class="culture-travel-image position-relative">
+                  <span
+                    class="culture-travel-tag article-category position-absolute font-weight-bold px-2 py-0 text-secondary font-size-14">TRAVEL</span>
+                  <img src="assets/img/man-smoking-marijuana.webp">
+                </div>
+                <figcaption class="culture-travel-figcaption font-weight-bold text-roboto pt-3 pb-4 text-secondary"><a
+                    href="">The Top
+                    Destinations Travelers
+                    Want to
+                    Escape to in
+                    2021 </a></figcaption>
+              </figure>
+  
+              <figure class="culture-travel-figure my-0">
+                <div class="culture-travel-image position-relative">
+                  <span
+                    class="culture-travel-tag article-category position-absolute font-weight-bold px-2 py-0 text-secondary font-size-14">TRAVEL</span>
+                    <img src="assets/img/man-smoking-marijuana.webp">
+                </div>
+                <figcaption class="culture-travel-figcaption font-weight-bold text-roboto pt-3 pb-4 text-secondary"><a
+                    href="">The Top
+                    Destinations Travelers
+                    Want to
+                    Escape to in
+                    2021 </a></figcaption>
+              </figure>
+  
+              <figure class="culture-travel-figure my-0">
+                <div class="culture-travel-image position-relative">
+                  <span
+                    class="culture-travel-tag article-category position-absolute font-weight-bold px-2 py-0 text-secondary font-size-14">TRAVEL</span>
+                    <img src="assets/img/man-smoking-marijuana.webp">
+                </div>
+                <figcaption class="culture-travel-figcaption font-weight-bold text-roboto pt-3 pb-4 text-secondary"><a
+                    href="">The Top
+                    Destinations Travelers
+                    Want to
+                    Escape to in
+                    2021 </a></figcaption>
+              </figure>
+  
+            </div>
+          </div>
+        </section>
+  
+        <!-- Sign up -->
+        <section class="sign-up p-4 text-roboto bg-gray mx-auto my-5">
+          <div class="container-fluid">
+            <div class="sign-up-header d-flex align-items-center mb-3">
+              <img src="./favicon.ico" alt="News week logo" class="sign-up-logo">
+              <h3 class="title-logo font-weight-bold pl-3 mb-0 text-uppercase">Start your day with our top 5 articles</h3>
+            </div>
+  
+            <form action="#" class="sign-up-form">
+              <input type="text" placeholder="Email address"
+                class="sign-up-input w-100 outline-none font-size-14 py-1 px-2 mb-2">
+              <button type="submit"
+                class="sign-up-form-button w-100 rounded outline-none border-0 bg-red-color text-white py-1 px-2 font-weight-bold">FREE
+                SIGN UP
+                ></button>
+            </form>
+          </div>
+        </section>
+  
+      </div>
+  
+      <!-- Magazine -->
+      <section class="magazine position-relative pt-5 pb-2">
+        <div class="container-fluid">
+          <p class="title-logo text-center text-roboto font-weight-bold pb-md-3"><img src="/favicon.ico"
+              alt="News week logo" class="sign-up-logo"> IN THE MAGAZINE</p>
+  
+          <div class="magazine-container align-items-end grid">
+            <article class="magazine-article-main align-self-end">
+              <div class="magazine-article-main-image position-relative">
+                <img src="assets/img/nathaniel-fischer.webp">
+                <div
+                  class="magazine-article-main-tag article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  AUGUST 07 ISSUE</div>
+              </div>
+              <a href="#" class="magazine-features text-center d-block font-weight-bold p-2 bg-gray">SEE ALL FEATURES
+                ></a>
+            </article>
+  
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2 mb-md-0">Exclusive: Kushner Gets
+                Candid On
+                Troubled Trump Campaign, Mideast, Mored</h3>
+            </article>
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+              </h3>
+            </article>
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+              </h3>
+            </article>
+  
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+              </h3>
+            </article>
+  
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+              </h3>
+            </article>
+  
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+              </h3>
+            </article>
+  
+            <article class="magazine-article">
+              <div class="magazine-article-image">
+                <img src="assets/img/skittles.webp">
+              </div>
+              <div class="magazine-article-tags font-weight-bold text-roboto">
+                <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+                <a href="#" class="text-red-color">NEWS</a>
+              </div>
+              <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+              </h3>
+            </article>
+  
+  
+          </div>
+        </div>
+      </section>
+  
+      <!-- Editor picks -->
+      <section class="editor-picks position-relative pt-5 pb-2">
+        <div class="container-fluid">
+          <class class="title-logo text-center text-roboto font-weight-bold border-bottom pb-2"></class><img src="assets/img/Newsweek logo.png" class="sign-up-logo"> EDITOR`S PICKS</p>
+          <div class="editor-picks-container grid">
+  
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>    
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+            <article class="editor-picks-article ">
+              <div class="editor-picks-image position-relative">
+                <div
+                  class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                  U.S.</div>
+                  <img src="assets/img/french-president-emmanuel-macron.webp">
+              </div>
+              <div class="editor-picks-details mt-2">
+                <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                    a
+                    Face Mask?</a></h3>
+                <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                  people, such as
+                  children under
+                  the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                  find wearing masks to be difficult.</p>
+              </div>
+            </article>
+  
+  
+          </div>
+        </div>
+      </section>
+  
+      <div class="flex-container-social d-lg-flex">
+        <!-- Subscribe -->
+        <section class="subscribe position-relative pt-5 pb-4">
+          <div class="container-fluid">
+            <p class="subscribe-section-title section-title font-weight-bold mb-2 text-red-color">SUBSCRIBE</p>
+  
+            <div
+              class="subscribe-container bg-gray p-3 py-md-5 px-md-3 d-md-flex align-items-center justify-content-center">
+              <div class="subscribe-images position-relative mx-auto">
+                <img src="assets/img/cover-november-06-11-2020.jpg">
+              </div>
+  
+              <div class="subscribe-details text-center outline-none px-md-4">
+                <h3 class="subscribe-title text-roboto font-weight-bold h5 pt-3">In-depth Stories You Don't See
+                  Elsewhere About Topics
+                  You Want to
+                  Read!</h3>
+                <p class="subscribe-subtitle text-arial">All Access + Weekly Delivery.
+                  Choose A Membership That's Perfect for You!</p>
+                <div>
+                  <button
+                    class="subscribe-button rounded outline-none border-0 bg-red-color text-white py-1 px-2 font-weight-bold"
+                    type="button">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Newsletter -->
+        <section class="newsletter position-relative pt-5 pb-4">
+          <div class="container-fluid">
+            <p class="newsletter-section-title section-title font-weight-bold mb-2 text-red-color">NEWSLETTER</p>
+  
+            <div class="newsletter-container text-center border p-3 p-md-0 d-md-flex align-items-center">
+              <div class="newsletter-image d-none d-md-block">
+                <img class="position-relative" src="assets/img/supreme-court-south-carolina-mail-ballots-extension.webp">
+              </div>
+  
+              <div class="newsletter-form-container p-md-4 px-lg-4 w-100">
+                <div class="newsletter-header">
+                  <h3 class="newsletter-title h5 text-roboto text-black font-weight-bold">The Starting 5</h3>
+                  <p class="newsletter-subtitle text-arial font-size-14 pt-2">See why nearly a quarter of a million
+                    subscribers
+                    begin their day with the
+                    Starting 5.</p>
+                </div>
+  
+                <form action="#" class="newsletter-form">
+                  <input type="text" placeholder="Email address"
+                    class="newsletter-input w-100 outline-none font-size-14 p-2 mb-2">
+                  <button type="submit"
+                    class="newsletter-form-button w-100 rounded outline-none border-0 bg-red-color text-white py-2 font-weight-bold">FREE
+                    SIGN UP ></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+    </main>
+  
+    <!-- Footer -->
+    <footer class="footer position-relative pt-5 pb-2">
+      <div class="container-fluid">
+  
+        <div class="footer-top d-md-flex justify-content-between align-items-center border-bottom pb-md-2 mb-2">
+          <div class="footer-left d-md-flex align-items-end">
+            <p class="footer-copyright mb-2 mb-md-1 text-arial text-uppercase">© 2020 Newsweek</p>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6 H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8 c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2 C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4  c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6  c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6 C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9  c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2  c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1 c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6  v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5  h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg>
+          </div>
+  
+          <ul class="footer-social list-unstyled d-flex align-items-center pb-1 mb-0 pb-md-0">
+            <li><a href="#" class="mr-2 h3"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#" class="mr-2 h3"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="mr-2 h3"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="mr-2 h3"><i class="fab fa-tumblr"></i></a></li>
+            <li><a href="#" class="h3"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
         </div>
-    </header>
-
-     <!-- main-content -->
-     <div class="main-content">
-  <div class="main-content-top">
- 
-          <!-- #Top Story -->
-    <div class="top-story">
-      <div class="container-fluid">
-      <div class="top-story-container">
-      <h3>TOP STORY</h3>
-      <div class="top-story-image position-relative">
-     <a href="#"><img src="assets/img/doctor-computer.webp"class="w-100"></a> 
-    <p class="position-absolute image-title py-2 ">NEWS</p>
-       <h3>Russian-Speaking Hackers Unleashing Attacks on US Hospitals, Officials Warn</h3>
-       <p>U.S. officials warned of "credible information of an increased and imminent <br> cybercrime threat to U.S. hospitals and healthcare providers" on Thursday.</p>
-      </div>
-     </div>
-     </div>
-  </div>
-
-    <div class="demacation">
-    </div>
-        <!-- #featured stories -->
-    <div class="featured-stories mt-3">
-      <div class="container-fluid">
-      <h3 class="mb-3 pt-3">FEATURED STORIES</h3>
-        <a href="#"><img src="assets/img/donald-trump-1.webp" class="w-100"></a>
-        <div class="U.S">
-          <p>U.S</p>
-        </div>
-        <h3>Donald Trump Wants 'Anonymous' Author Miles Taylor to Be Prosecuted</h3>
-        <p>
-          President Donald Trump referred to Miles Taylor, who referred to himself as "Anonymous" in his <br> critical writings about the Trump administration, as <br> a "sleazebag who's never worked in the White <br> House."
-          <h3><b>Miles Taylor Just Replaced John Bolton as Washington's Most Hated Man</b></h3>
-        </p>
-        <div class="second">
-          <a href="#"><img src="assets/img/mnuchin.webp"class="w-100"></a>
-          <div class="U.S">
-            <p>U.S</p>
-           <h3> Second Round of $1,200 Stimulus Checks Could Still Come Before December</h3>
-           <p>The deadline to pass the next federal budget falls  on December 11. Congress must approve another <br> spending bill by that date to avoid a shutdown and <br> lawmakers could seize on the window to approve a <br> stimulus package.</p> 
-        </div>
-        <div class="supreme-court">
-          <a href><img src="assets/img/supreme-court-south-carolina-mail-ballots-extension.webp"class="w-100"></a>
-          <div class="U.S">
-            <p>U.S</p>
+  
+        <div class="footer-editions font-size-14 text-arial">
+          <div class="footer-editions-countries d-flex">
+            <p class="editions-title font-weight-bold">Editions:</p>
+            <ul class="footer-links d-flex align-items-center list-unstyled flex-wrap-reverse pl-3">
+              <li><a href="#" class="mr-3 mb-1">Pakistan</a></li>
+              <li><a href="#" class="mr-3 mb-1">Polska</a></li>
+              <li><a href="#" class="mr-3 mb-1">Romania</a></li>
+              <li><a href="#" class="mr-3 mb-1">U.S. Edition</a></li>
+              <li><a href="#" class="mr-3 mb-1">日本</a></li>
+            </ul>
           </div>
-          <h3>Supreme Court Rejects North  Carolina Mall-in Ballot Case In  Blow to Trump</h3>
-          <p>The case sought to shorten the window of time that North Carolina voters had for submitting mail-in <br> ballots from nine days to three days.</p>
-        </div>
-        <div class="politics">
-          <a href="#"><img src="assets/img/tucker-carlson.webp"class="w-100"></a>
-          <div class="politics-1">
-            <p>POLITICS</p>
-          </div>
-          <h3>
-            Tucker Carlson Says 'Authentic,<br> Damning' Biden Docs Got Lost in <br> the Mail
-          </h3>
-          <p>The chyrons for the segment read, "Damning <br> Hunter Documents Suddenly Vanish."</p>
-        </div>
-        <div class="world">
-          <a href="#"><img src="assets/img/esper-pompeo-singh-jaishankar-india-us.webp"class="w-100">c</a>
-          <div class="world-1">
-            <p>WORLD</p>
-          </div>
-          <h3>China Warns of 'Cold War' After US-<br> India Meet, Pakistan Protests Too</h3>
-          <p>China and Pakistan are frustrated at warming U.S.- <br> India defense ties, which threaten to upset the <br> geopolitical balance of power in Asia.</p>
+          <ul class="footer-link d-flex list-unstyled flex-wrap">
+            <li class="mr-3 mb-2"><a href="#">About Us</a></li>
+            <li class="mr-3 mb-2"><a href="#">Corrections</a></li>
+            <li class="mr-3 mb-2"><a href="#">Contact Us</a></li>
+            <li class="mr-3 mb-2"><a href="#">Editorial Guidelines</a></li>
+            <li class="mr-3 mb-2"><a href="#">Advertise</a></li>
+            <li class="mr-3 mb-2"><a href="#">Copyright</a></li>
+            <li class="mr-3 mb-2"><a href="#">Terms & Conditions</a></li>
+            <li class="mr-3 mb-2"><a href="#">Privacy Policy</a></li>
+            <li class="mr-3 mb-2"><a href="#">Cookie Policy</a></li>
+            <li class="mr-3 mb-2"><a href="#">Terms of Sale</a></li>
+            <li class="mr-3 mb-2"><a href="#">Archive</a></li>
+            <li class="mr-3 mb-2"><a href="#">Announcements</a></li>
+            <li class="mr-3 mb-2"><a href="#">Consent preferences</a></li>
+          </ul>
+  
         </div>
       </div>
-          </div>
-        </div>
-    </div>
-
-      <!-- The Debate -->
-      <div class="the-debate">
-        <div class="container-fluid">
-        <h4>THE DEBATE</h4>
-       <a href="#"><img src="assets/img/abigail-shrier.webp"class="w-100"></a> 
-        <h4>The Transgender Threat to Women's <br> Sports</h4>
-        <p>The Transgender Threat to Women's Sports</p>
-        vs
-        <a href="#"><img src="assets/img/juliet-jacques.webp"class="w-100"></a>
-        <p>BY JULIET JACQUES</p>
-      </div>
-      </div>
-       <!-- Opinion -->
-
-    <div class="OPINION">
-      <div class="container-fluid">
-      <h4>OPINION</h4>
-      <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-      <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-      <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-      <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-      <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-      <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-     <a href="#"><img src="assets/img/john-ravitz.webp"class="w-100"></a> 
-      <h4>I'm a Republican Former Elections <br> Official. I Choose Democracy Over <br> Trump</h4>
-    </div>
-      <!-- More Stories -->
-      <div class="more-stories">
-        <div class="container-fluid">
-        <h4>MORE STORIES</h4>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>Stimulus Deal Hinges More on the Election Than <br> Economics</h4>
-        <p>Imminent GDP data is expected to present the biggest <br> rebound for output since World War II. But experts say the <br> main driver of the size and timing a potential future stimulus <br> package will be political.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        <img src="assets/img/trump-biden-last-debate.webp"class="w-100">
-        <h4>AOC Says She Viewed Stacks of Photos Showing 'People <br> Who Want to Kill' Her</h4>
-        <p>Rep. Alexandra Ocasio-Cortez details some of the death <br>  threats and abuse aimed toward her and those closest to <br> her in a recent cover story for Vanity Fair.</p>
-        </div>
-      </div>
-
-      <!-- MY TURN -->
-      <div class="my-turn">
-        <h4>MY TURN</h4>
-        <img src="assets/img/comedy-heckling-donald-trump.webp"class="w-100">
-        <p>'I'm a Political Comedian, Trump Fans  Are Heckling Me More Than Ever'</p>
-        <img src="assets/img/marriage-wedding-married-later-life.webp"class="w-100">
-        <p>'I Married for the First Time at 60'</p>
-        <img src="assets/img/sleep-sleep-doctor-sleep-tips.webp"class="w-100">
-        <p>'I'm a Sleep Doctor. Here Are 5 Tips to Sleep Well</p>
-      </div>
-      <!-- CULTURE & TRAVEL -->
-      <div class="CULTURE & TRAVEL">
-        <div class="container-fluid">
-        <h4>CULTURE & TRAVEL</h4>
-        <img src="assets/img/colette-artist-pig-hero.webp"class="w-100">
-        <p>FILM</p>
-        <p>"Colette the Artist" Pig  is Exactly What 2020  Needs Right Now</p>
-        <img src="assets/img/toni-morrison.webp"class="w-100">
-        <p>GENDER EQUALITY</p>
-        <p>These Are the 57  Women Who Have Won  the Nobel Prize</p>
-        <img src="assets/img/100-monumental-novels-literary-history (1).webp"class="w-100">
-        <p>BOOKS/p>
-          <p>100 Monumental Novels <br> From Literary History</p>
-      </div>
-      <!-- In the Magazine -->
-    <div class="magazine">
-      <div class="container-fluid">
-      <div class="n-title flex-xs jc-c ai-c"><span class="icon-n"></span>
-        IN THE MAGAZINE</div>
-        <img src="assets/img/cover-november-06-11-2020.webp">
-          <h4>NOVEMBER 13 ISSUE</h4>
-      </div>
-    </div>
-
-    <!-- SEE ALL FEATURES -->
-          <div class="features">
-          <div class="container-fluid">
-          <h3>SEE ALL FEATURES ></h3>
-          <div class="cover">
-            <div class="WORLD">
-              <img src="assets/img/fe-china-influence-banner.webp"class="w-100">
-              <h4>COVER WORLD</h4>  
-              <p>Exclusive: 600 U.S. Groups Linked to China Communist Party Influence  Effort</p>
-              <p>Exclusive: 600 U.S. Groups Linked to China Communist Party Influence  Effort</p>
-
-              <img src="assets/img/trump.webp"class="w-100">
-              <h4>PERISCOPE U.S</h4>
-              <p>With Amy Coney Barrett Confirmed,<br> Does John Roberts Still Matter?</p>
-              <img src="assets/img/trump.webp"class="w-100">
-              <h4>PERISCOPE U.S</h4>
-              <p>With Amy Coney Barrett Confirmed,<br> Does John Roberts Still Matter?</p>
-              <img src="assets/img/trump.webp"class="w-100">
-              <h4>PERISCOPE U.S</h4>
-              <p>With Amy Coney Barrett Confirmed,<br> Does John Roberts Still Matter?</p>
-              <img src="assets/img/trump.webp"class="w-100">
-              <h4>PERISCOPE U.S</h4>
-              <p>With Amy Coney Barrett Confirmed,<br> Does John Roberts Still Matter?</p>
-              <img src="assets/img/trump.webp"class="w-100">
-              <h4>PERISCOPE U.S</h4>
-              <p>With Amy Coney Barrett Confirmed,<br> Does John Roberts Still Matter?</p>
-            </div>
-            </div>
-          </div>
-    </div>
-      </div>
-       <!-- Editor's Pick -->
-     <div class="editor's pick">
-      <div class="container-fluid">
-      <h3>EDITOR'S PICK</h3>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>BUSINESS</h4>
-    <p>With Amy Coney Barrett Confirmed,Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>POLITICS</h4>
-    <p>With Amy Coney Barrett Confirmed,Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>WORLD</h4>
-    <p>With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>BUSINESS</h4>
-    <p>With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>BUSINESS</h4>
-    <p>With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>U.S.</h4>
-    <p>With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>NEWS</h4>
-    <p>With Amy Coney Barrett Confirmed,Does John Roberts Still Matter?</p>
-    <a href="#"><img src="assets/img/trump.webp" class="w-100"></a>
-    <h4>U.S.</h4>
-    <p>With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</p>
-    </div>
-  </div>
-
-        <!-- US -->
-        <div class="US">
-          <div class="container-fluid">
-          <div class="US-news">
-            <a href="#"><img src="assets/img/chuck-schumer-donald-trump-moron-coronavirus-covid-19.webp" class="w-100"></a>
-          <h3>Chuck Schumer Says Americans Are Dying of COVID Because Trump Is A 'Moron'</h3>
-          <a href="#"><img src="assets/img/chuck-schumer-donald-trump-moron-coronavirus-covid-19.webp" class="w-100"></a>
-          <h3>Chuck Schumer Says Americans Are Dying  of COVID Because Trump Is A 'Moron'</h3>
-          </div> 
-            <div class="side-news">
-             <a href="#"><img src="assets/img/lil-wayne.webp" class="w-100"></a> 
-              <h3>Lil Wayne Has 'Great' Meeting with Donald Trump About Platinum Plan</h3>
-              <a href="#"><img src="assets/img/lil-wayne.webp" class="w-100"></a> 
-              <h3>Lil Wayne Has 'Great' Meeting with Donald Trump About Platinum Plan</h3>
-              <a href="#"><img src="assets/img/lil-wayne.webp" class="w-100"></a> 
-              <h3>Lil Wayne Has 'Great' Meeting with Donald Trump About Platinum Plan</h3>
-            </div>
-            </div>
-        </div>
-
-           <!-- WORLD NEWS -->
-        <div class="world-news">
-          <div class="container-fluid">
-          <div class="main-world-news">
-           <a href="#"><img src="assets/img/israel-defense-forces-lebanon-syria-exercises.webp" class="w-100"></a> 
-          <h3>Israel Practices War Against Hezbollah, Both Say They're Ready for It</h3>
-          <a href="#"><img src="assets/img/israel-defense-forces-lebanon-syria-exercises.webp" class="w-100"></a>
-          <h3>Israel Practices War Against Hezbollah, Both Say They're Ready for It</h3>
-          </div>
-            <div class="side-world-news">
-             <a href="#"><img src="assets/img/china-pet-dog.webp" class="w-100"></a>
-              <h3>
-                Lost Pet Dog Finds Way Home After Walking 40 Miles in 26 Days</h3>
-                <a href="#"><img src="assets/img/china-pet-dog.webp" class="w-100"></a>
-              <h3>
-                Lost Pet Dog Finds Way Home After Walking 40 Miles in 26 Days</h3>
-                <a href="#"><img src="assets/img/china-pet-dog.webp" class="w-100"></a>
-              <h3>
-                Lost Pet Dog Finds Way Home After Walking 40 Miles in 26 Days</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- BUSINESS NEWS -->
-        <div class="business-news">
-          <div class="container-fluid">
-          <div class="main-business-news">
-            <a href="#"><img src="assets/img/trump-biden-last-debate.webp" class="w-100"></a>
-            <h3>Is Joe Biden or Donald Trump Better for Your <br> 401(k)?</h3>
-            <a href="#"><img src="assets/img/trump-biden-last-debate.webp" class="w-100"></a>
-            <h3>Is Joe Biden or Donald Trump Better for Your <br> 401(k)?</h3>
-          </div>
-          <div class="side-business-news">
-           <a href="#"><img src="assets/img/stock-exchange.webp" class="w-100"></a> 
-            <h3>Markets Poised for Stimulus After <br> Election, but Trump Win May Derail <br> Stocks</h3>
-            <a href="#"><img src="assets/img/stock-exchange.webp" class="w-100"></a> 
-            <h3>Markets Poised for Stimulus After <br> Election, but Trump Win May Derail <br> Stocks</h3>
-            <a href="#"><img src="assets/img/stock-exchange.webp" class="w-100"></a> 
-            <h3>Markets Poised for Stimulus After <br> Election, but Trump Win May Derail <br> Stocks</h3>
-          </div>
-          </div>
-        </div>
-
-              <!-- TECH&BUSINESS -->
-        <div class="tech&business">
-          <div class="container-fluid">
-          <div class="main-tech&business">
-           <a href="#"><img src="assets/img/rams-head-squid.webp" class="w-100"></a> 
-            <h3>Strange, Rare Deep Sea Squid Filmed Alive <br> in Wild for First Time Ever</h3>
-            <a href="#"><img src="assets/img/rams-head-squid.webp" class="w-100"></a> 
-            <h3>Strange, Rare Deep Sea Squid Filmed Alive <br> in Wild for First Time Ever</h3>
-          </div>
-          <div class="side-tech&business">
-            <a href="#"><img src="assets/img/donald-trump (2).webp" class="w-100"></a>
-            <h3>Idea of Trump Re-election Prompts <br> 'Disgust,' 'Relief' in Americans: Survey</h3>
-            <a href="#"><img src="assets/img/donald-trump (2).webp" class="w-100"></a>
-            <h3>Idea of Trump Re-election Prompts <br> 'Disgust,' 'Relief' in Americans: Survey</h3>
-            <a href="#"><img src="assets/img/donald-trump (2).webp" class="w-100"></a>
-            <h3>Idea of Trump Re-election Prompts <br> 'Disgust,' 'Relief' in Americans: Survey</h3>
-          </div>
-        </div>
-        </div>
-
-              <!-- CULTURE -->
-        <div class="culture">
-          <div class="container-fluid">
-          <div class="main-culture">
-           <a href="#"> <img src="assets/img/skittles.webp" class="w-100"></a>
-            <h3>Trick or Treat Times 2020: When Does Halloween Night Start and End for Kids</h3>
-            <a href="#"> <img src="assets/img/skittles.webp" class="w-100"></a>
-            <h3>Trick or Treat Times 2020: When Does Halloween Night Start and End for Kids</h3>
-          </div>
-          <div class="side-culture">
-           <a href="#"><img src="assets/img/tracy-smothers-wwe-passes-away.webp" class="w-100"></a> 
-            <h3> Colin Jost and Scarlett Johansson Are <br> Married! Here's How They Met</h3>
-            <a href="#"><img src="assets/img/tracy-smothers-wwe-passes-away.webp" class="w-100"></a> 
-            <h3> Colin Jost and Scarlett Johansson Are <br> Married! Here's How They Met</h3>
-            <a href="#"><img src="assets/img/tracy-smothers-wwe-passes-away.webp" class="w-100"></a> 
-            <h3> Colin Jost and Scarlett Johansson Are <br> Married! Here's How They Met</h3>
-          </div>
-          </div>
-        </div>
-
-            <!-- Sports -->
-        <div class="sports">
-          <div class="container-fluid">
-          <div class="main-sport">
-            <img src="assets/img/najee-harris.webp" class="w-100">
-            <h3>2020 Heisman Trophy Favorites as  Halloween Weekend Approaches</h3>
-            <img src="assets/img/najee-harris.webp" class="w-100">
-            <h3>2020 Heisman Trophy Favorites as Halloween Weekend Approaches</h3>
-          </div>
-          <div class="side-sport">
-            <img src="assets/img/tracy-smothers-wwe-passes-away.webp" class="w-100">
-            <h3>
-              Tracy Smothers, One Half of The Southern Boys, Dead at 58</h3>
-              <img src="assets/img/tracy-smothers-wwe-passes-away.webp" class="w-100">
-              <h3>
-                Tracy Smothers, One Half of The Southern Boys, Dead at 58</h3>
-                <img src="assets/img/tracy-smothers-wwe-passes-away.webp" class="w-100">
-                <h3>
-                  Tracy Smothers, One Half of The Southern Boys, Dead at 58</h3>
-          </div>
-          </div>
-        </div>
-
-            <!-- SUBSCRIBE -->
-          <div class="subscribe-main">
-            <div class="container-fluid">
-            <div class="subscribe">
-              <h2>SUBSCRIBE</h2>
-              <a href="#"><img src="assets/img/cover-november-06-11-2020.webp" class="w-100"></a>
-              <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-              <p>All Access + Weekly Delivery.
-                Choose A Membership That's Perfect for You!</p>
-                <h4>SUBSCRIBE ></h4>
-            </div>
-            </div>
-            </div>
-
-            <!-- NEWSLETTER -->
-            <div class="newsletter">
-              <div class="container-fluid">
-              <h2>NEWSLETTER</h2>
-              <a href="#"><img src="assets/img/"></a>
-              <h3>The Starting 5</h3>
-              <p>
-                See why nearly a  quarter of a million  subscribers begin their day with the  Starting 5.</p>
-                <a>Email Address</a>
-                <h5>Free Sign up ></h5>
-              </div>
-              </div>
-          </div>
-     </div>
-
-        <!-- FOOTER -->
-<footer>
-  <div class="container-fluid">
-  <h2>Newsweek <p>© 2020 NEWSWEEK DIGITAL LLC</p>
-  </h2>
-  <div logo>
-    <span class="iconify" data-icon="dashicons:facebook" data-inline="false"></span>
-    <span class="iconify" data-icon="ant-design:twitter-outlined" data-inline="false"></span>
-    <span class="iconify" data-icon="topcoat:instagram" data-inline="false"></span>
-    <span class="iconify" data-icon="gg:twitter" data-inline="false"></span>
-    <span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"></span>
-  </div>
-  <div class="link">
-    <ul>
-      <h5>Editions:</h5>
-      <li>U.S Edition</li>
-      <li>日本</li>
-      <li>Pakistan</li>
-      <li> Polska</li>
-      <li>România</li>
-    </ul>
-  </div>  
-<div class="links-2">
-  <ul>
-    <li>About Us</li>
-    <li>Corrections</li>
-    <li>Contact Us</li>
-    <li>Editorial Guidelines</li>
-    <li>Advertise</li>
-    <li>Copyright</li>
-    <li>Terms & Conditions</li>
-    <li>Privacy Policy</li>
-    <li>Cookie Policy</li>
-    <li>Terms of Sale</li>
-    <li>Archive</li>
-    <li>Announcements</li>
-  </ul>
-</div>
-</div>
-</footer>
-</body>
-</html>
+    </footer>
+  
+  </body>
+  
+  </html>
