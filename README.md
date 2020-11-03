@@ -1,6 +1,6 @@
-# Bootstrap![](https://img.shields.io/badge/Microverse-blueviolet)
+[](https://img.shields.io/badge/Microverse-blueviolet)
 
-# DesignTeardown
+# Bootstrap!
 
 This project is a part from Microverse program, designed to learn how to use position things were we exactly want them. Made with HTML/CSS by  Adetola Adesuyi
 
@@ -9,13 +9,9 @@ This project is a part from Microverse program, designed to learn how to use pos
 
 ## Bootstrap features include:
 
-- Media 
+- Media queries
 
 - Navigation Bar with hovering effects
-
-- Backgrounds features on all the project
-
-- Flexbox, grid and floats.
 
 - Articles.
 
@@ -29,13 +25,14 @@ This project is a part from Microverse program, designed to learn how to use pos
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/warblo001/DesignTeardown/ecc85f3b89fd94a88cd1bd7de6901886246b8ce0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Arinpe/Bootstrap/5c932ee480a2953d6db4f25fbe51d3be52b49a3c/index.html
+)
 
 **See the page via the link above**
 
 **See the Source Page via the link below**
 
-[Source Page Link](https://www.smashingmagazine.com/)
+[Source Page Link](https://www.newsweek.com/)
 
 ## Author
 
