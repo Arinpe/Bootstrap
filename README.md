@@ -25,7 +25,7 @@ This project is a part from Microverse program, designed to learn how to use pos
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Arinpe/Bootstrap/5c932ee480a2953d6db4f25fbe51d3be52b49a3c/index.html)
+[Live Demo Link](https://raw.githack.com/Arinpe/Bootstrap/newsweek/index.html)
 
 **See the page via the link above**
 
