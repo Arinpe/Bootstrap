@@ -25,13 +25,11 @@ button {
   background-color: #f4f5f6;
 }
 
-
 .nav {
   position: sticky;
   top: 0;
   left: 0;
   z-index: 999;
-
 }
 
 .section-title {
@@ -301,6 +299,7 @@ button {
 
   .magazine-article-image img {
     height: 100%;
+
     /* object-fit: cover; */
   }
 
