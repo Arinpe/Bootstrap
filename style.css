@@ -25,6 +25,15 @@ button {
   background-color: #f4f5f6;
 }
 
+
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+}
+
 .section-title {
   color: rgba(3, 3, 3, 0.4);
 }
@@ -96,7 +105,7 @@ button {
 
 /* The debate */
 .avatar {
-  width: 63px;
+  width: 40%;
 }
 
 /* Culture travel */
@@ -118,6 +127,18 @@ button {
 .sign-up-logo {
   width: 28px;
   height: 28px;
+}
+
+.magazine-article {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  height: 100%;
+}
+
+.debate-image {
+  width: 80px;
+  height: 80px;
 }
 
 .sign-up-input,
@@ -273,12 +294,14 @@ button {
   }
 
   .magazine-article-image {
-    overflow: hidden;
+    /* overflow: hidden; */
+    flex: 1;
+    margin-top: 40px;
   }
 
   .magazine-article-image img {
-    height: 200px;
-    object-fit: cover;
+    height: 100%;
+    /* object-fit: cover; */
   }
 
   .title-logo {
@@ -349,6 +372,8 @@ button {
 
   .nav-lg-middle {
     font-size: 19px;
+    background-color: #fff;
+    margin-bottom: -1px;
   }
 
   .nav-lg-middle-search {
@@ -358,6 +383,7 @@ button {
 
   .nav-lg-bottom {
     color: #807f84;
+    background-color: #fff;
   }
 
   .main-top-grid-container {
