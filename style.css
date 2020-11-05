@@ -103,7 +103,7 @@ button {
 
 /* The debate */
 .avatar {
-  width: 40%;
+  width: 63px;
 }
 
 /* Culture travel */
@@ -144,6 +144,29 @@ button {
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
+}
+
+/* world section */
+.pos-rel {
+  position: relative;
+}
+
+.font-m-large {
+  font-size: 22px;
+}
+
+.color-red {
+  color: red;
+}
+
+a:hover {
+  color: red;
+}
+
+.world-caption:hover {
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: solid 2px red;
 }
 
 /* Subscribe */
