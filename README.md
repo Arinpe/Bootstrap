@@ -2,7 +2,7 @@
 
 # Bootstrap!
 
-This project is a part from Microverse program, designed to learn how to use position things were we exactly want them. Made with HTML/CSS by  Adetola Adesuyi
+This is one of Microverse project, designed to learn how to use positioning well. The project is built with HTML/CSS by  Adetola Adesuyi
 
 
 ![screenshot](assets/img/screenshot.png)
