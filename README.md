@@ -1,9 +1,7 @@
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Bootstrap!
-
-This is one of Microverse project, designed to learn how to use positioning well. The project is built with HTML/CSS by  Adetola Adesuyi
-
+This project is designed to reposition the site well
 
 ![screenshot](assets/img/screenshot.png)
 
